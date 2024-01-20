@@ -21,13 +21,11 @@ export const Primary: Story = {
   args: {
     variant: 'primary',
     placeholder: 'primary text',
-    ref: () => {}
   },
 }
 export const Secondary: Story = {
   args: {
     variant: 'secondary',
     placeholder: 'secondary text',
-    ref: () => {}
   }
 }
