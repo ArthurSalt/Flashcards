@@ -11,6 +11,7 @@ const meta = {
       options: ['primary', 'secondary', 'tertiary', 'link'],
       control: { type: 'radio' },
     },
+    onClick: { action: 'clicked' },
   },
 } satisfies Meta<typeof Button>
 
@@ -21,7 +22,7 @@ export const Primary: Story = {
   args: {
     variant: 'primary',
     children: 'Primary Button',
-    disabled: false
+    disabled: false,
   },
 }
 
